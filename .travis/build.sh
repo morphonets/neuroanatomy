@@ -18,7 +18,7 @@ sh travis-build.sh $encrypted_eb7aa63bf7ac_key $encrypted_eb7aa63bf7ac_iv &&
 # Upload release version to the ImageJ update site.
 if [ "$UPLOAD_TO_UPDATE_SITE" ]
 then
-  sh Kharrington_deploy.sh
+  sh neuroanatomy_deploy.sh
 else
   echo '--> Not a release build; skippin upload to update site.'
 fi
