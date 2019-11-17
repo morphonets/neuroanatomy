@@ -111,8 +111,7 @@
 		<snt.version>76619f3</snt.version>
         <scijava-common.version>2.79.0</scijava-common.version>
 		<imagej-launcher.version>5.0.2</imagej-launcher.version>
-		<mastodon.version>0a96636</mastodon.version>
-		<imagej-updater.version>49b1ac9</imagej-updater.version>
+		<imagej-updater.version>0.10.3</imagej-updater.version>
 	</properties>
 
 	<repositories>
@@ -124,10 +123,6 @@
 			<id>scijava.public</id>
 			<url>https://maven.scijava.org/content/groups/public</url>
 		</repository>
-		<repository>
-		  <id>clojars.org</id>
-		  <url>https://repo.clojars.org</url>
-		</repository>
 	</repositories>
 
 	<dependencies>
@@ -138,12 +133,6 @@
 <!--			<artifactId>fun.imagej</artifactId>-->
 <!--			<version>${funimagej.version}</version>-->
 <!--		</dependency>-->
-
-		<dependency>
-			<groupId>com.github.fiji</groupId>
-			<artifactId>TrackMate3</artifactId>
-			<version>${mastodon.version}</version>
-		</dependency>
 
 		<dependency>
 			<groupId>net.imagej</groupId>
