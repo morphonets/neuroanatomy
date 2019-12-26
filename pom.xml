@@ -102,7 +102,7 @@
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
-		<cx3d.version>cb12567</cx3d.version>
+		<cx3d.version>4d7ce76</cx3d.version>
 		<sciview.version>2f4df2f</sciview.version>
 		<scenery.version>7d3b58a</scenery.version>
 
