@@ -74,18 +74,18 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/morphonets/neuroanatom</connection>
-		<developerConnection>scm:git:git@github.com:morphonets/neuroanatom</developerConnection>
-		<tag>kharrington-ij-update-site-0.0.1</tag>
-		<url>https://github.com/morphonets/neuroanatom</url>
+		<connection>scm:git:git://github.com/morphonets/neuroanatomy</connection>
+		<developerConnection>scm:git:git@github.com:morphonets/neuroanatomy</developerConnection>
+		<tag>neuroanatomy-update-site-0.0.1</tag>
+		<url>https://github.com/morphonets/neuroanatomy</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/morphonets/neuroanatom/issues</url>
+		<url>https://github.com/morphonets/neuroanatomy/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>Travis CI</system>
-		<url>https://travis-ci.org/morphonets/neuroanatom</url>
+		<url>https://travis-ci.org/morphonets/neuroanatomy</url>
 	</ciManagement>
 
 
@@ -102,14 +102,14 @@
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
-		<cx3d.version>927d8fd</cx3d.version>
+		<cx3d.version>1db6ece</cx3d.version>
 		<sciview.version>2f4df2f</sciview.version>
 		<scenery.version>7d3b58a</scenery.version>
 
 		<cleargl.version>2.2.10</cleargl.version>
 		<kotlin.version>1.3.61</kotlin.version>
 		<lwjgl.version>3.2.3</lwjgl.version>
-		<snt.version>3a9d35c</snt.version>
+		<snt.version>9dbaca7i</snt.version>
         <scijava-common.version>2.79.0</scijava-common.version>
 		<imagej-launcher.version>5.0.2</imagej-launcher.version>
 		<imagej-updater.version>0.10.3</imagej-updater.version>
