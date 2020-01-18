@@ -102,7 +102,7 @@
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
-		<cx3d.version>1db6ece</cx3d.version>
+		<cx3d.version>7fab83c</cx3d.version>
 		<sciview.version>2f4df2f</sciview.version>
 		<scenery.version>7d3b58a</scenery.version>
 
@@ -127,13 +127,6 @@
 	</repositories>
 
 	<dependencies>
-
-
-<!--		<dependency>-->
-<!--			<groupId>fun.imagej</groupId>-->
-<!--			<artifactId>fun.imagej</artifactId>-->
-<!--			<version>${funimagej.version}</version>-->
-<!--		</dependency>-->
 
 		<dependency>
 			<groupId>net.imagej</groupId>
