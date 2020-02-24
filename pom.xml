@@ -103,7 +103,7 @@
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
 		<cx3d.version>9704680</cx3d.version>
-		<sciview.version>45b5bb3</sciview.version>
+		<sciview.version>8a93534</sciview.version>
 		<scenery.version>c80aa00b</scenery.version>
 
 		<cleargl.version>2.2.10</cleargl.version>
