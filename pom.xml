@@ -113,6 +113,7 @@
 		<lwjgl.version>3.2.3</lwjgl.version>
 		<snt.version>b067768</snt.version>
         <scijava-common.version>2.79.0</scijava-common.version>
+
 		<imagej-launcher.version>5.0.2</imagej-launcher.version>
 		<imagej-updater.version>0.10.3</imagej-updater.version>
 	</properties>
