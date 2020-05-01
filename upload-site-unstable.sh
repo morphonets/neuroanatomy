@@ -37,6 +37,7 @@ echo "Found launcher: $launcher"
 password=$WIKI_UPLOAD_PASS
 ./$launcher --update edit-update-site $update_site $url "webdav:$webdav_user:$password" .
 ./$launcher --update upload-complete-site --force --force-shadow $update_site
+./$launcher --update upload --update-site $update_site jars/scijava-plugins-io-table*.jar
 
 # Upload other launchers
 ./$launcher --update upload --update-site  $update_site --force-shadow --forget-missing-dependencies "Contents/MacOS/ImageJ-macosx" "ImageJ-win32.exe" "ImageJ-win64.exe"
