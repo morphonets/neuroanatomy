@@ -106,8 +106,12 @@
 		<sciview.version>9a71de9</sciview.version>
 		<scenery.version>f55e46b</scenery.version>
 
+		<imagescience.version>3.0.0</imagescience.version>
+
 		<kotlin.version>1.4-M1</kotlin.version>
 		<snt.version>8c3508e</snt.version>
+
+		<n5.version>2.1.3</n5.version>
 	</properties>
 
 	<repositories>
