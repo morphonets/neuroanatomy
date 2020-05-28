@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>27.0.1</version>
+		<version>29.0.0-beta-1</version>
 		<relativePath />
 	</parent>
 
@@ -126,18 +126,6 @@
 	</repositories>
 
 	<dependencies>
-
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej-launcher</artifactId>
-			<version>${imagej-launcher.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej-updater</artifactId>
-			<version>${imagej-updater.version}</version>
-		</dependency>
 
 	        <!-- SciJava dependencies -->
 		<dependency>
