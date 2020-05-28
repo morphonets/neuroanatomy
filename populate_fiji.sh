@@ -175,6 +175,11 @@ ls $FijiDirectory/jars
 # -- Now that we populated fiji, let's double check that it works --
 
 echo
+echo "--> Installing SciView-Unstable update site for testing"
+Fiji.app/$launcher --update add-update-site SciView-Unstable https://sites.imagej.net/SciView-Unstable/
+Fiji.app/$launcher --update update
+
+echo
 echo "--> Testing installation with command: sc.iview.commands.help.About"
 OUT_TEST=$(Fiji.app/$launcher  --headless --run sc.iview.commands.help.About)
 echo $OUT_TEST
