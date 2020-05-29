@@ -31,11 +31,18 @@ esac
 echo "Found launcher: $launcher"
 
 # Install the sciview update site so we dont include unnecessary duplications
-./$launcher --update add-update-site SciView-Unstable https://sites.imagej.net/SciView-Unstable/
+#./$launcher --update add-update-site SciView-Unstable https://sites.imagej.net/SciView-Unstable/
 
 # upload complete update site
 password=$WIKI_UPLOAD_PASS
 ./$launcher --update edit-update-site $update_site $url "webdav:$webdav_user:$password" .
+
+echo
+echo "--> Simulating upload-complete-site with no force"
+./$launcher --update upload-complete-site --simulate
+
+echo
+echo "--> Actual upload-complete-site"
 ./$launcher --update upload-complete-site --force --force-shadow $update_site
 ./$launcher --update upload --update-site $update_site --force-shadow jars/scijava-plugins-io-table*.jar
 
