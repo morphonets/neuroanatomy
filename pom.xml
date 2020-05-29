@@ -103,7 +103,7 @@
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
 		<snt.version>8c3508e</snt.version>
-		<cx3d.version>f9963ca</cx3d.version>
+		<cx3d.version>0c503a4</cx3d.version>
 
 		<sciview.version>9a71de9</sciview.version>
 		<scenery.version>f55e46b</scenery.version>
@@ -254,6 +254,7 @@
 			<groupId>org.joml</groupId>
 			<artifactId>joml</artifactId>
 		</dependency>
+
 
 		<!-- Optional dependencies - for sc.iview.Main only! -->
 		<dependency>
