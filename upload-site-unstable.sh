@@ -39,7 +39,7 @@ password=$WIKI_UPLOAD_PASS
 
 echo
 echo "--> Simulating upload-complete-site with no force"
-./$launcher --update upload-complete-site --simulate
+./$launcher --update upload-complete-site --simulate $update_site
 
 echo
 echo "--> Actual upload-complete-site"
