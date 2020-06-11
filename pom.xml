@@ -102,7 +102,7 @@
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
-		<snt.version>0111e24</snt.version>
+		<snt.version>2d8af5b6a0</snt.version>
 		<cx3d.version>0c503a4</cx3d.version>
 
 		<sciview.version>9a71de9</sciview.version>
