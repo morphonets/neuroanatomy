@@ -45,6 +45,8 @@ echo
 echo "--> Actual upload-complete-site"
 ./$launcher --update upload-complete-site --force --force-shadow $update_site
 ./$launcher --update upload --update-site $update_site --force-shadow jars/scijava-plugins-io-table*.jar
+./$launcher --update upload --update-site $update_site --force-shadow jars/okio-*.jar
+./$launcher --update upload --update-site $update_site --force-shadow jars/okhttp-*.jar
 
 # Upload other launchers
 ./$launcher --update upload --update-site  $update_site --force-shadow --forget-missing-dependencies "Contents/MacOS/ImageJ-macosx" "ImageJ-win32.exe" "ImageJ-win64.exe"
