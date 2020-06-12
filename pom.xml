@@ -139,6 +139,12 @@
 
 	<dependencies>
 
+		<!-- TF: HACK: temporary dependencies -->
+		<dependency>
+    		<groupId>sc.iview</groupId>
+   			 <artifactId>sciview</artifactId>
+   			 <version>${sciview.version}</version>
+		</dependency>
 		<dependency>
 		  <groupId>org.morphonets</groupId>
 		  <artifactId>cx3d</artifactId>
