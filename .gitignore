@@ -1,5 +1,6 @@
 /target/
 /.settings/
+/Fiji.app/
 *.class
 *.zip
 .classpath
