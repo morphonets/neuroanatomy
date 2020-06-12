@@ -111,6 +111,9 @@
 
 		<imagescience.version>3.0.0</imagescience.version>
 
+        <ffmpeg.version>4.2.1-1.5.2</ffmpeg.version>
+        <jocl.version>2.0.1</jocl.version>
+
 		<kotlin.version>1.4-M1</kotlin.version>
 		<kotlinx-coroutines-core.version>1.3.5-1.4-M1</kotlinx-coroutines-core.version>
 	</properties>
@@ -139,7 +142,6 @@
 
 	<dependencies>
 
-		<!-- TF: HACK: temporary dependencies -->
 		<dependency>
     		<groupId>sc.iview</groupId>
    			 <artifactId>sciview</artifactId>
@@ -151,6 +153,36 @@
 		  <version>${cx3d.version}</version>
 	    </dependency>
 
+		<!-- TF: HACK: temporary missing dependencies -->
+		<dependency>
+            <groupId>org.jocl</groupId>
+            <artifactId>jocl</artifactId>
+            <version>${jocl.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>${ffmpeg.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>${ffmpeg.version}</version>
+            <classifier>linux-x86_64</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>${ffmpeg.version}</version>
+            <classifier>macosx-x86_64</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>${ffmpeg.version}</version>
+            <classifier>windows-x86_64</classifier>
+        </dependency>
+       
 		<dependency>
 			<groupId>org.morphonets</groupId>
 			<artifactId>SNT</artifactId>
