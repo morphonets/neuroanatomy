@@ -91,10 +91,10 @@ echo "--> Removing old joml"
 (set -x; rm -f $FijiDirectory/jars/joml-1.9.24.jar)
 
 echo "--> Fetching jide-oss"
-(set -x; cx $FijiDirectory/jars && { curl -0 https://github.com/morphonets/SNT/raw/master/jars/jide-oss-3.7.7.jar ; cd -; } )
+(set -x; cx $FijiDirectory/jars && { curl -0 -L https://github.com/morphonets/SNT/raw/master/jars/jide-oss-3.7.7.jar ; cd -; } )
 
 echo "--> Fetching hIPNAT"
-(set -x; cx $FijiDirectory/jars && { curl -0 https://github.com/tferr/hIPNAT/releases/download/1.1.0/hIPNAT_-1.1.0.jar ; cd -; } )
+(set -x; cx $FijiDirectory/jars && { curl -0 -L https://github.com/tferr/hIPNAT/releases/download/1.1.0/hIPNAT_-1.1.0.jar ; cd -; } )
 
 ## -- Put back jar/gluegen-rt and jar/jogl-all --
 #echo
